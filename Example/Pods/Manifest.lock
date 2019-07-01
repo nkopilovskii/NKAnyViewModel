@@ -1,0 +1,16 @@
+PODS:
+  - NKAnyViewModel (0.1.0)
+
+DEPENDENCIES:
+  - NKAnyViewModel (from `../`)
+
+EXTERNAL SOURCES:
+  NKAnyViewModel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NKAnyViewModel: 622572853d7e0c560c575742fa4bad052fbe7e0c
+
+PODFILE CHECKSUM: 0902d98149af0dc4113b331558351470d2da5191
+
+COCOAPODS: 1.5.3

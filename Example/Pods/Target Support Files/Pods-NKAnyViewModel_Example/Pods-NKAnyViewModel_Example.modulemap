@@ -1,0 +1,6 @@
+framework module Pods_NKAnyViewModel_Example {
+  umbrella header "Pods-NKAnyViewModel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

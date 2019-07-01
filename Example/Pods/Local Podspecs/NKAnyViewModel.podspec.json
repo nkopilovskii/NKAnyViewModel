@@ -1,0 +1,22 @@
+{
+  "name": "NKAnyViewModel",
+  "version": "0.1.0",
+  "summary": "A short description of NKAnyViewModel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Nick Kopilovskii/NKAnyViewModel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nick Kopilovskii": "nkopilovskii@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Nick Kopilovskii/NKAnyViewModel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NKAnyViewModel/Classes/**/*"
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NKAnyViewModel_Example' do
+  pod 'NKAnyViewModel', :path => '../'
+
+  target 'NKAnyViewModel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

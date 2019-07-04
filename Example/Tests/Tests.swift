@@ -1,5 +1,5 @@
 import XCTest
-import NKAnyViewModel
+//import NKAnyViewModel
 
 class Tests: XCTestCase {
     

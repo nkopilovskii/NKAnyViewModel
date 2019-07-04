@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NKAnyViewModel'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NKAnyViewModel.'
+  s.summary          = 'A simple tool for configuring views'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This solution can be used as a stand-alone view configuration tool, or as an element of the configuration mechanism of composite visual components (for example, UITableView)
                        DESC
 
   s.homepage         = 'https://github.com/nkopilovskii/NKAnyViewModel'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Nick Kopilovskii' => 'nkopilovskii@gmail.com' }
   s.source           = { :git => 'https://github.com/nkopilovskii/NKAnyViewModel.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/mkopilovskii'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'NKAnyViewModel/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'NKAnyViewModel' => ['NKAnyViewModel/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

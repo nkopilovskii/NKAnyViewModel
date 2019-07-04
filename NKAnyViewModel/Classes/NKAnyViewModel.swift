@@ -7,16 +7,21 @@
 
 import UIKit
 
+//MARK: - NKAnyViewModel protocol
 public protocol NKAnyViewModel {
   static var viewAnyType: UIView.Type { get }
   func setupAny(view: UIView)
 }
+//MARK: -
 
+//MARK: - NKViewModel protocol
 public protocol NKViewModel: NKAnyViewModel {
   associatedtype ViewType: UIView
   func setup(view: ViewType)
 }
+//MARK: -
 
+//MARK: - NKViewModel extension
 public extension NKViewModel {
   static var viewAnyType: UIView.Type {
     return ViewType.self
@@ -31,4 +36,4 @@ public extension NKViewModel {
     }
   }
 }
-
+//MARK: -

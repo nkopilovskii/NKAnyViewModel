@@ -1,18 +1,18 @@
 # NKAnyViewModel
 
-[![CI Status](https://img.shields.io/travis/nkopilovskii/NKAnyViewModel.svg?style=flat)](https://travis-ci.org/nkopilovskii/NKAnyViewModel)
+<!-- [![CI Status](https://img.shields.io/travis/nkopilovskii/NKAnyViewModel.svg?style=flat)](https://travis-ci.org/nkopilovskii/NKAnyViewModel) -->
 [![Version](https://img.shields.io/cocoapods/v/NKAnyViewModel.svg?style=flat)](https://cocoapods.org/pods/NKAnyViewModel)
-[![License](https://img.shields.io/cocoapods/l/NKAnyViewModel.svg?style=flat)](https://cocoapods.org/pods/NKAnyViewModel)
-[![Platform](https://img.shields.io/cocoapods/p/NKAnyViewModel.svg?style=flat)](https://cocoapods.org/pods/NKAnyViewModel)
+[![License](https://img.shields.io/cocoapods/l/NKAnyViewModel.svg?style=flat&color=yellow)](https://cocoapods.org/pods/NKAnyViewModel)
+[![Platform](https://img.shields.io/cocoapods/p/NKAnyViewModel.svg?style=plain)](https://cocoapods.org/pods/NKAnyViewModel)
 
 ## Description
+
 This solution can be used as a stand-alone view configuration tool, or as an element of the configuration mechanism of composite visual components (for example, `UITableView`)
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
 
 ## Installation
 
@@ -22,6 +22,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'NKAnyViewModel'
 ```
+
+## Requirements
+
+**iOS** 10.0
 
 ## Author
 

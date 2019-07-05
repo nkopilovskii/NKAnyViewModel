@@ -3,7 +3,7 @@
 <!-- [![CI Status](https://img.shields.io/travis/nkopilovskii/NKAnyViewModel.svg?style=flat)](https://travis-ci.org/nkopilovskii/NKAnyViewModel) -->
 [![Version](https://img.shields.io/cocoapods/v/NKAnyViewModel.svg?style=flat)](https://cocoapods.org/pods/NKAnyViewModel)
 [![License](https://img.shields.io/cocoapods/l/NKAnyViewModel.svg?style=flat&color=yellow)](https://cocoapods.org/pods/NKAnyViewModel)
-[![Platform](https://img.shields.io/cocoapods/p/NKAnyViewModel.svg?style=plain)](https://cocoapods.org/pods/NKAnyViewModel)
+[![Platform](https://img.shields.io/cocoapods/p/NKAnyViewModel.svg?style=flat&color=white)](https://cocoapods.org/pods/NKAnyViewModel)
 
 ## Description
 

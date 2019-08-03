@@ -42,7 +42,7 @@ public protocol NKViewModel: NKAnyViewModel {
 }
 //MARK: -
 
-//MARK: - NKViewModel extension
+//MARK: - NKViewModel base implementation
 public extension NKViewModel {
   static var viewAnyType: UIView.Type {
     return ViewType.self
